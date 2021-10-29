@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Line fx:id="line11" endX="102.70706176757812" endY="1.2928985357284546" layoutX="84.0" startX="100.00001525878906" startY="599.0" />
+      <Line endX="100.0" layoutX="304.0" startX="100.00001525878906" startY="599.0" />
+      <Line endX="476.99993896484375" endY="344.8929138183594" layoutX="123.0" layoutY="59.0" startX="-123.00000762939453" startY="344.8929138183594" />
+      <Line endX="515.0" endY="100.09291076660156" layoutX="84.0" layoutY="79.0" startX="-91.30709075927734" startY="100.09291076660156" />
+      <Button fx:id="button11" mnemonicParsing="false" prefHeight="179.0" prefWidth="184.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button12" layoutX="184.0" mnemonicParsing="false" prefHeight="179.0" prefWidth="220.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button13" layoutX="404.0" mnemonicParsing="false" prefHeight="179.0" prefWidth="196.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button21" layoutY="180.0" mnemonicParsing="false" prefHeight="225.0" prefWidth="184.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button22" layoutX="183.0" layoutY="180.0" mnemonicParsing="false" prefHeight="225.0" prefWidth="220.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button23" layoutX="404.0" layoutY="181.0" mnemonicParsing="false" prefHeight="225.0" prefWidth="196.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button31" layoutY="404.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="184.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button32" layoutX="184.0" layoutY="404.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="220.0" text="Press Me">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button33" layoutX="405.0" layoutY="404.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="196.0" text="Press Me">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Circle fx:id="Circle32" fill="#534c4c" layoutX="294.0" layoutY="502.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle21" fill="#534c4c" layoutX="94.0" layoutY="299.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle31" fill="#534c4c" layoutX="94.0" layoutY="502.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle23" fill="#534c4c" layoutX="503.0" layoutY="299.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle13" fill="#534c4c" layoutX="502.0" layoutY="92.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle22" fill="#534c4c" layoutX="293.0" layoutY="293.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle33" fill="#534c4c" layoutX="503.0" layoutY="502.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Line fx:id="line11Left" endX="91.99996948242188" endY="75.0" layoutX="92.0" layoutY="104.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line31Right" endX="-103.40709686279297" endY="65.0" layoutX="102.0" layoutY="526.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line31Left" endX="91.99996948242188" endY="75.0" layoutX="101.0" layoutY="516.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line11Right" endX="-103.40709686279297" endY="65.0" layoutX="104.0" layoutY="116.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line32Left" endX="91.99996948242188" endY="75.0" layoutX="277.0" layoutY="516.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line32Right" endX="-103.40709686279297" endY="65.0" layoutX="306.0" layoutY="526.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line23Left" endX="91.99996948242188" endY="75.0" layoutX="497.0" layoutY="307.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line23Right" endX="-103.40709686279297" endY="65.0" layoutX="507.0" layoutY="317.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line13Left" endX="91.99996948242188" endY="75.0" layoutX="496.0" layoutY="106.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line13Right" endX="-103.40709686279297" endY="65.0" layoutX="506.0" layoutY="116.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line33Left" endX="91.99996948242188" endY="75.0" layoutX="497.0" layoutY="516.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line33Right" endX="-103.40709686279297" endY="65.0" layoutX="507.0" layoutY="526.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line22Left" endX="91.99996948242188" endY="75.0" layoutX="288.0" layoutY="308.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line22Right" endX="-103.40709686279297" endY="65.0" layoutX="298.0" layoutY="318.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line21Left" endX="91.99996948242188" endY="75.0" layoutX="91.0" layoutY="314.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line21Right" endX="-103.40709686279297" endY="65.0" layoutX="101.0" layoutY="324.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Line fx:id="line12Left" endX="91.99996948242188" endY="75.0" layoutX="294.0" layoutY="106.0" startX="-91.99998474121094" startY="-103.99999237060547" />
+      <Line fx:id="line12Right" endX="-103.40709686279297" endY="65.0" layoutX="304.0" layoutY="116.0" startX="81.99996948242188" startY="-113.99999237060547" />
+      <Circle fx:id="Circle11" fill="#534c4c" layoutX="101.0" layoutY="92.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+      <Circle fx:id="Circle12" fill="#534c4c" layoutX="287.0" layoutY="92.0" radius="88.0" stroke="#695a5a" strokeType="INSIDE" />
+   </children>
+</Pane>
